@@ -4,7 +4,6 @@ module.exports = {
     script: './src/proxy.js',
     watch: ['./src'],
     ignore_watch: ['./node_modules', './logs'],
-    instances: 1,
     max_memory_restart: '200M',
     wait_ready: true,
     error_file: './logs/err.log',
