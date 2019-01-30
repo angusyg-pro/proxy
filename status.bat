@@ -2,6 +2,6 @@
  
 set PATH=%cd%/node;%PATH%
 
-CALL pm2 list
+CALL npm run status
 
 pause
